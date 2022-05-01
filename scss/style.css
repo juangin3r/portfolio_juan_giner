@@ -1,0 +1,428 @@
+body {
+  font-family: "Saira Extra Condensed", sans-serif;
+  padding-top: 3rem;
+  color: white;
+  background-color: #090b1a;
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid white;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header p {
+  margin-top: -1rem;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto 2rem auto;
+  width: 90%;
+}
+
+.block-a {
+  text-align: center;
+}
+
+.block-a h2 {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1.4rem 3.5rem;
+  cursor: pointer;
+}
+
+.block-a h2:hover {
+  background-color: #26a7ff;
+  border-radius: 2rem;
+}
+
+.block-a .accordion-content {
+  display: none;
+}
+
+.block-a .accordion-content.active {
+  display: block;
+}
+
+.block-a .accordion-content .about-more {
+  line-height: 1.7rem;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  font-size: 1.2rem;
+}
+
+.block-b {
+  text-align: center;
+}
+
+.block-b h2 {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1.4rem 3.5rem;
+  cursor: pointer;
+}
+
+.block-b h2:hover {
+  background-color: #26a7ff;
+  border-radius: 2rem;
+}
+
+.block-b .accordion-content {
+  display: none;
+}
+
+.block-b .accordion-content.active {
+  display: block;
+}
+
+.block-b .accordion-content i {
+  margin-right: 0.6rem;
+  color: #26a7ff;
+}
+
+.block-c {
+  text-align: center;
+}
+
+.block-c h2 {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1.4rem 3.5rem;
+  cursor: pointer;
+}
+
+.block-c h2:hover {
+  background-color: #26a7ff;
+  border-radius: 2rem;
+}
+
+.block-c .accordion-content {
+  display: none;
+}
+
+.block-c .accordion-content.active {
+  display: block;
+}
+
+.block-c .accordion-content nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.block-c .accordion-content nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.3rem;
+}
+
+.block-c .accordion-content nav i {
+  margin-right: 0.6rem;
+  color: #26a7ff;
+}
+
+.block-c .accordion-content nav .img-certificado {
+  width: 24px;
+  -webkit-transform: translate(-8px, 6px);
+          transform: translate(-8px, 6px);
+}
+
+.block-d {
+  text-align: center;
+}
+
+.block-d h2 {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1.4rem 3.5rem;
+  cursor: pointer;
+}
+
+.block-d h2:hover {
+  background-color: #26a7ff;
+  border-radius: 2rem;
+}
+
+.block-d .accordion-content {
+  display: none;
+}
+
+.block-d .accordion-content.active {
+  display: block;
+}
+
+.block-d .accordion-content nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.3rem;
+}
+
+.block-d .accordion-content nav i {
+  margin-right: 0.6rem;
+  color: #26a7ff;
+}
+
+.block-e {
+  text-align: center;
+}
+
+.block-e h2 {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1.4rem 3.5rem;
+  cursor: pointer;
+}
+
+.block-e h2:hover {
+  background-color: #26a7ff;
+  border-radius: 2rem;
+}
+
+.block-e .accordion-content {
+  display: none;
+}
+
+.block-e .accordion-content.active {
+  display: block;
+}
+
+.block-e .accordion-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block-e .accordion-content ul li {
+  text-decoration: none;
+  padding: 0;
+  list-style: none;
+}
+
+.block-e .accordion-content ul li i {
+  margin-right: 0.6rem;
+  color: #26a7ff;
+}
+
+.block-e .accordion-content ul li i:hover {
+  color: white;
+}
+
+.block-e .accordion-content ul li i.html {
+  position: relative;
+  cursor: pointer;
+}
+
+.block-e .accordion-content ul li i.html:hover span {
+  display: inline;
+}
+
+.block-e .accordion-content ul li i.html span {
+  display: none;
+  position: absolute;
+  font-size: 1.1rem;
+  color: white;
+  max-width: 6000px;
+  top: -46px;
+  left: -16px;
+  z-index: 100;
+  font-weight: 600;
+  background-color: #000;
+  padding: 10px 10px 12px 10px;
+  border-radius: 0.5rem;
+}
+
+.block-e .accordion-content ul li i.css {
+  position: relative;
+  cursor: pointer;
+}
+
+.block-e .accordion-content ul li i.css:hover span {
+  display: inline;
+}
+
+.block-e .accordion-content ul li i.css span {
+  display: none;
+  position: absolute;
+  font-size: 1.1rem;
+  color: white;
+  max-width: 6000px;
+  top: -46px;
+  left: -16px;
+  z-index: 100;
+  font-weight: 600;
+  background-color: #000;
+  padding: 10px 10px 12px 10px;
+  border-radius: 0.5rem;
+}
+
+.block-e .accordion-content ul li i.js {
+  position: relative;
+  cursor: pointer;
+}
+
+.block-e .accordion-content ul li i.js:hover span {
+  display: inline;
+}
+
+.block-e .accordion-content ul li i.js span {
+  display: none;
+  position: absolute;
+  font-size: 1.1rem;
+  color: white;
+  max-width: 6000px;
+  top: -46px;
+  left: -6px;
+  z-index: 100;
+  font-weight: 600;
+  background-color: #000;
+  padding: 10px 10px 12px 10px;
+  border-radius: 0.5rem;
+}
+
+.block-e .accordion-content ul li i.bootsrap {
+  position: relative;
+  cursor: pointer;
+}
+
+.block-e .accordion-content ul li i.bootsrap:hover span {
+  display: inline;
+}
+
+.block-e .accordion-content ul li i.bootsrap span {
+  display: none;
+  position: absolute;
+  font-size: 1.1rem;
+  color: white;
+  max-width: 6000px;
+  top: -46px;
+  left: -30px;
+  z-index: 100;
+  font-weight: 600;
+  background-color: #000;
+  padding: 10px 10px 12px 10px;
+  border-radius: 0.5rem;
+}
+
+.block-e .accordion-content ul li i.github {
+  position: relative;
+  cursor: pointer;
+}
+
+.block-e .accordion-content ul li i.github:hover span {
+  display: inline;
+}
+
+.block-e .accordion-content ul li i.github span {
+  display: none;
+  position: absolute;
+  font-size: 1.1rem;
+  color: white;
+  max-width: 6000px;
+  top: -46px;
+  left: -24px;
+  z-index: 100;
+  font-weight: 600;
+  background-color: #000;
+  padding: 10px 10px 12px 10px;
+  border-radius: 0.5rem;
+}
+
+.block-e .accordion-content ul li i.sass {
+  position: relative;
+  cursor: pointer;
+}
+
+.block-e .accordion-content ul li i.sass:hover span {
+  display: inline;
+}
+
+.block-e .accordion-content ul li i.sass span {
+  display: none;
+  position: absolute;
+  font-size: 1.1rem;
+  color: white;
+  max-width: 6000px;
+  top: -46px;
+  left: -10px;
+  z-index: 100;
+  font-weight: 600;
+  background-color: #000;
+  padding: 10px 10px 12px 10px;
+  border-radius: 0.5rem;
+}
+
+.block-f {
+  text-align: center;
+}
+
+.block-f h2 {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1.4rem 3.5rem;
+  cursor: pointer;
+}
+
+.block-f h2:hover {
+  background-color: #26a7ff;
+  border-radius: 2rem;
+}
+
+.block-f .accordion-content {
+  display: none;
+}
+
+.block-f .accordion-content.active {
+  display: block;
+}
+
+.block-f .accordion-content nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2.3rem;
+}
+
+.block-f .accordion-content nav i {
+  margin-right: 0.6rem;
+  color: #26a7ff;
+}
+/*# sourceMappingURL=style.css.map */

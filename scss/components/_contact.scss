@@ -1,0 +1,12 @@
+.block-b {
+    @include block;
+    h2 {
+        @include h2;
+    }
+    .accordion-content {
+        @include accordion-content;
+        i {
+            @include i;
+        }
+    }
+}

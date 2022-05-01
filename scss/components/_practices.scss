@@ -1,0 +1,17 @@
+.block-f {
+    @include block;
+    h2 {
+        @include h2;
+    }
+    .accordion-content {
+        @include accordion-content;
+        nav {
+            a {
+                @include a;
+            }
+            i {
+                @include i;
+            }
+        }
+    }
+}

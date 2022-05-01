@@ -1,0 +1,57 @@
+.block-e {
+    @include block;
+    h2 {
+        @include h2;
+    }
+    .accordion-content {
+        @include accordion-content;
+        ul {
+            @include ul;
+            li {
+                @include li;
+                i {
+                    @include i;
+                    &:hover {
+                        color: $white;
+                    }
+                    &.html {
+                        @include habilities-icon;
+                        span {
+                            @include span(-16px);
+                        }
+                    }
+                    &.css {
+                        @include habilities-icon;
+                        span {
+                            @include span(-16px);
+                        }
+                    }
+                    &.js {
+                        @include habilities-icon;
+                        span {
+                            @include span(-6px);
+                        }
+                    }
+                    &.bootsrap {
+                        @include habilities-icon;
+                        span {
+                            @include span(-30px);
+                        }
+                    }
+                    &.github {
+                        @include habilities-icon;
+                        span {
+                            @include span(-24px);
+                        }
+                    }
+                    &.sass {
+                        @include habilities-icon;
+                        span {
+                            @include span(-10px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

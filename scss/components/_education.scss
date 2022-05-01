@@ -1,0 +1,24 @@
+.block-c {
+    @include block;
+    h2 {
+        @include h2;
+    }
+    .accordion-content {
+        @include accordion-content;
+        nav {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            a {
+                @include a;
+            }
+            i {
+                @include i;
+            }
+            .img-certificado {
+                width: 24px;
+                transform: translate(-8px, 6px);
+            }
+        }
+    }
+}

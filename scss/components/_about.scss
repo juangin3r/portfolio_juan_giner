@@ -1,0 +1,15 @@
+.block-a {
+    @include block;
+    h2 {
+        @include h2;
+    }
+    .accordion-content {
+        @include accordion-content;
+        .about-more{
+            line-height: 1.7rem; 
+            font-weight: 600;
+            font-family: $second-font;
+            font-size: 1.2rem;
+        }
+    }
+}
